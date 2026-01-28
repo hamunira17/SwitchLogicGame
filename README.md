@@ -1,13 +1,28 @@
-# 2D Action Framework - Core System
+#  2D Action Framework - Core System
 
 ##  Overview
-量産性とメンテナンス性を重視した2Dゲーム開発基盤です。
+量産性とメンテナンス性を極限まで追求した、2Dアクションゲームの開発基盤です。
+単なる「ゲームの習作」ではなく、現場での運用を想定した「拡張可能なシステム設計」にフォーカスしています。
 
-##  Technical Features
-- **シーン管理**: シングルトンパターンによる永続的なマネージャー実装
-- **UIシステム**: Overridesを活用したリザルト画面のテンプレート化
-- **AI-Driven Development**: Gemini 3 Flashを開発パートナーに採用し、設計の壁打ちを実施
+## 🕹️ Gameplay & Mechanics
+シンプルかつ奥深い「論理の切り替え」をコア体験に据えています。
+- **Switch-Link System**: 
+  オブジェクト間の依存関係を疎結合に保ちつつ、複雑なギミック起動ロジックを容易に構築可能。
+- **Minimalist Aesthetic**: 
+  あえて情報を削ぎ落としたビジュアルを採用。プレイヤーの思考を「解法の探索」へと集中させます。
 
-## Roadmap
-- [x] シーン遷移基盤の構築
-- [ ] PlayerPrefsを用いたセーブシステム (Next Phase)
+## 🛠️ Technical Features
+- **シーン管理**: 
+  シングルトンパターンを用いた永続的なマネージャー実装。シーン遷移時のデータ整合性を保証。
+- **UIシステム**: 
+  UnityのPrefab Overridesを活用。リザルト画面やメニューのテンプレート化により、UI量産時のコストを大幅削減。
+- **AI-Driven Development**: 
+  開発パートナーに **Gemini 3 Flash** を採用。設計の壁打ち
+
+## 🚀 Roadmap
+- [x] ゲーム全体で共通のコアシステム構築
+- [ ] 拡張ギミックを活かした新規ステージの量産
+- [ ] タイトル、ステージセレクト画面の作成
+
+---
+*Developed by hataya28*
